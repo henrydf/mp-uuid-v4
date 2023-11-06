@@ -10,6 +10,6 @@ async function getRandomValues() {
 export async function uuid() {
   const buff = new Uint8Array(16);
   const random = await getRandomValues();
-  v4({random}, buff);
+  v4({random: new Uint8Array(random)}, buff);
   return encode(buff);
 }

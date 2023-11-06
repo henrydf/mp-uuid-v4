@@ -3,7 +3,7 @@ import {encode} from 'base64-arraybuffer';
 
 async function getRandomValues() {
   const ret = await wx.getRandomValues({length: 16});
-  if (ret.randomValues) return randomValues;
+  if (ret.randomValues) return ret.randomValues;
   throw new Error(ret.errMsg);
 }
 

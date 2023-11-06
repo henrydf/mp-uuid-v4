@@ -4,7 +4,8 @@
   "description": "mini-program version of uuid",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "build": "rollup -c rollup.config.mjs"

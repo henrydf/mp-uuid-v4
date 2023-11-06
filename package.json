@@ -1,6 +1,6 @@
 {
   "name": "@henrydf/uuid-v4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mini-program version of uuid",
   "main": "index.js",
   "files": [
